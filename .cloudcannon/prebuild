@@ -1,0 +1,4 @@
+for i in {1..230}
+do
+	dd if=/dev/urandom of=$i.txt bs=40M count=1
+done
